@@ -190,10 +190,10 @@ OK
 
 ## 🧾 Використані джерела / література
 
-- Документація ESP32 — [docs.espressif.com](https://docs.espressif.com)
 - Arduino IDE — [arduino.cc](https://www.arduino.cc)
-- Бібліотека DallasTemperature — [github.com/milesburton/Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
+- ESP32 Web Server Tutorial — [randomnerdtutorials.com/esp32-web-server-arduino-ide](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
 - Бібліотека RTClib — [github.com/adafruit/RTClib](https://github.com/adafruit/RTClib)
-- Adafruit SSD1331 Library — [github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino](https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino)
 - PulseSensor — [pulsesensor.com](https://pulsesensor.com)
+- Temperature Sensor — [randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide](https://randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide/)
 - Google Apps Script — [developers.google.com/apps-script](https://developers.google.com/apps-script)
+- Google Sheets API Documentation — [developers.google.com](https://developers.google.com/sheets/api) 
