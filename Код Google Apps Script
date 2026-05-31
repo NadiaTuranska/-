@@ -1,1 +1,21 @@
+var sheet_id = "14S9vCqHF4xYhZFH7PX64nK4sQ2dWAq-jwWQdjaYbK4E";
+const timeZone = Session.getScriptTimeZone();
 
+function doGet(e) {
+
+  var ss = SpreadsheetApp.openById(sheet_id);
+
+  var sheet_name = String(e.parameter.pacient);
+  var sheet = ss.getSheetByName(sheet_name);
+
+  var datestring = e.parameter.date;
+  var date2 = new Date(datestring);
+  var date = Utilities.formatDate(date2, timeZone, "yyyy-MM-dd HH:mm:ss");
+
+  var temperature = Number(e.parameter.temperature);
+  var pulse = Number(e.parameter.pulse);
+
+  sheet.appendRow([date, temperature, pulse]);
+
+  return ContentService.createTextOutput("OK");
+}
